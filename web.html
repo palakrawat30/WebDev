@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a description of our page.">
+    <title>First web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <p style="background-color: rgb(137, 223, 223);">this is a paragraph <br> and this is a para with another row <br>fiverr </p>
+    <p>Title of our page is really important because it reflects our page.</p>
+    <p>Lorem, ipsum. Lorem is used when we want some words </p>
+    <p>Code web vitals are really important for a web developer. <br>They are may kind of CWV but three are important as listed below:
+    <ol type="1">
+        <li>CLS</li>
+        <li>LCP</li>
+        <li>FID</li>
+    </ol>
+    Light House generates a report of your website.</p>
+    <img height="400" src="Flower.png" alt="Flower Image">
+    <br>
+    <table>
+        <caption>Student Details </caption>
+        <thead>
+            <tr>
+                <th>S.no.</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+    
+        </thead>
+        
+        <tbody>
+        <tr>
+            <td colspan="2">Payal</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Kajal</td>
+            <td rowspan="2">10</td>
+        </tr>
+        
+        <tr>
+            <td>3.</td>
+            <td>Mayank</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Student </td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <ul>
+        <li>unordered list</li>
+        <li>can also say doted list</li>
+    </ul>
+
+    <ul type="square">
+        <li>here type is used for the design of the point </li>
+        <li>another type is circle</li>
+    </ul>
+
+    <ol>
+        <li>orfered list</li>
+        <li>numbered list</li>
+    </ol>
+
+    <ol type="i">
+        <li>here type i is used for lower case roman numbers </li>
+        <li>type I is used for upper case roman numbers </li>
+        <li>type 1 id default </li>
+        <li>type a is lowercase alphabatical letters</li>
+        <li>type A is uppercase alphabatical letters</li>
+
+    </ol>
+
+    <h2>HTML Defination list</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt>JavaScript</dt>
+        <dd>used to add interative features in web development</dd>
+    </dl>
+
+    <h2>Form for Students Admission</h2>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username ">
+        </div>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subsribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe my channel </label>
+        </div>
+
+        <div>
+            <label for="comment">Comment box:</label>
+            <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div>
+            <select name="Class">
+                <option value="class 10">Class 10</option>
+                <option value="class 11">Class 11</option>
+                <option value="class 12">Class 12</option>
+            </select>
+        </div>
+
+        <div>div is a block element which takes whole row </div>
+        <span>span is a inline element which takes only required space and gives place to other elements as well</span>
+        <!-- make a form in vertical format without using br tag -->
+        
+    </form>
+
+    <h3>Id and Classses in HTML</h3>
+    <div id="firstdiv" class="red bg-blue">First</div>
+    <span id="firstspan" class="red">In both cases id's should always be diffent but class can be same and can also have multiple classes at a time.</span>
+
+    <h3>Video</h3>
+    <video src="video1.mp4" width="450" height="300" controls autoplay muted loop poster="Flower.png"></video>
+
+    <audio src="audio1.mp3" controls autoplay loop muted ></audio>
+
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+
+    <iframe src="https://www.wikipedia.org/" width="300" height="500" frameborder="0"></iframe>
+
+    <!--Create a website which shows videos of different catagory and audio of different catagories.
+    You can use YouTube videos in an iframe using YouTube's embedding feature-->
+
+    <h3>What is Sementic HTML</h3>
+    <p>Sementic tags main purpose is to arrange things properly.It's some tags are given below:
+        <ul>
+            <li>header</li>
+            <li>footer</li>
+            <li>article tag is used for writjng article,letter and things like this</li>
+
+            <li>aside tag is used when we want to write or tell something on the side.</li>
+            <li>figure tag is used when we want to add some fig or diagram.</li>
+            <li>time tag is used for time related information.</li>
+        </ul>    
+    </p>
+
+    <!--EXERCISE 1
+    You are given 12 files; 6 audio and 6 videos.
+    Design a website using HTML only which shows these 12 files.
+    1.mp3,2.mp3,3.mp3 ... 6.mp3
+    1.mp4,2.mp4,3.mp4 ... 6.mp4-->
+
+    <!-- ctrl + / is used for commenting and uncommenting  -->
+
+    <h3>Entities</h3>
+    <p>Entities are used when we want to write a tag in our website without any trouble
+        <ul>
+            <li>& lt for "<"</li>
+            <li>& gt for ">"</li>
+            <li>There is a pre tag whichis used whenwe want to write the information in para as it is even for new line without using br tag in it.</li>
+            <li>& copy shows a copy tag</li>
+            <li>& amp for "&"</li>
+            <li>& nbsp for non-breaking space</li>
+        </ul>
+    </p>
+
+    <h3>Quotation Tag</h3>
+    <q>This is a Quotation Tag</q>
+    <p>For putthing cite in Quotation we have to use cite tag.</p>
+
+    <p>code tag is used when we want to put a in our website which can be copied at any time easily but we will use it with pre tag to include the extra spaces as we want.</p>
+
+    <h3>Canvas Tag</h3>
+    <p>Is used when we want to make graphical shapes to our page.</p>
+    <script src="script.js"></script>
+</body>
+</html>

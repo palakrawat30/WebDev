@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+         /* Element Selector
+        div{
+            color: blueviolet;
+            background: rgb(111, 111, 223);
+        }
+
+         Class Selector
+        .blue{
+            background-color: rgb(117, 163, 104);
+        }
+
+         Id Selector
+         #green{
+            background-color: green;
+        }
+        
+        Child Selector
+        div > p {
+                background-color: rgb(151, 71, 154);
+        }
+
+        Decendant Selector
+        div p {
+            color: blue ;
+        }
+
+        Universal Selector
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        Pseudo Selector
+        a:visited {
+            color: rgb(235, 106, 106);
+        }
+
+        a:link{
+            color: black;
+        }
+
+        a:active{
+            background-color: blanchedalmond;
+        }
+
+        a:hover{
+            background-color: rgb(87, 87, 206);
+        }
+
+        p:first-child{
+            background-color: rgb(234, 234, 150);
+        } */
+        
+        /* *{
+            margin: 0;
+            padding:0;        
+        }
+
+        .box {
+            background-color: aqua;
+        }
+        .box1 {
+            color: rgb(221, 54, 207);
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid blue;
+            height: 50px;
+            box-sizing: border-box ;
+        }
+        .box2 {
+            color: gray;
+        } */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&display=swap');
+
+        h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        p{
+            /* font-family: monospace; */
+            font-family: "Baloo Bhai 2", sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 3;
+            letter-spacing: 2px;
+        }
+
+        h2{
+            text-transform:lowercase;
+            text-decoration: underline;
+            text-decoration-color: aquamarine;
+            text-decoration-style: double;
+            text-decoration-thickness: 3px;;
+            text-indent: 20px;
+            text-align: center;
+        }
+
+        .decor {
+            width: 100px;
+            border: 6px solid greenyellow;
+            overflow:hidden;
+            word-break: keep-all;
+            
+        }
+
+        h1{
+            /* color: blueviolet; */
+            /* color: #0bee0b; */
+            /* color: rgb(88, 180, 160); */
+            /* color: rgba(41, 158, 41, 0.84); */
+            color: hsl(40, 62%, 50%);
+            background-color: rgb(49, 49, 129);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        [data-x="a"]{
+            color: blue;
+            margin: auto;
+            width: 80vw;
+            border: 3px solid green;
+            box-sizing: border-box;
+            background-color: bisque;
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+            font-size: 3em;
+        }
+
+        .para {
+            box-sizing: border-box ;
+            margin: auto;
+            width: 80vw;
+            min-height: 80vh;
+            border: 3px solid red;
+            background-color: aqua;
+        }
+
+        .box {
+            border: 4px solid blue;
+            display: inline-block;
+            padding: 20px;
+            margin: 30px;
+            /* visibility: hidden; */
+        }
+
+        h2{
+            border: 3px solid violet;
+            box-shadow: 5px 5px 15px 5px rgb(244, 160, 232);
+            text-shadow: 2px 2px 4px mediumturquoise;
+            border-radius: 6px;
+        }
+
+        nav ul li {
+            list-style: none;
+            background-color: aquamarine;
+            /* list-style-position: inside; */
+            /* border: 2px solid black; */
+            /* list-style-image: url(Flower.png); */
+            list-style-type: "";
+            display: flex;
+            padding: 23px;
+        }
+
+        .over{
+            width: 30vw;
+            height: 20vh;
+            border: 2px solid blue;
+            /* overflow: auto; */
+            /* white-space: nowrap; */
+            /* text-overflow: ellipsis; */
+            /* overflow-x: hidden; */
+            /* overflow-y: scroll; */
+            overflow: hidden scroll;
+        
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="blue">Internal css </div>
+    <div id="green">Heyyyy</div>
+    <span>External css - by linling another file of css </span>
+    <div>
+        <p style="color: aqua; ">This is inline css</p>
+        <p>Here I'm using VS Code</p>
+    </div>
+    <div>
+        <article>
+            <p>My name is Palak</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Go to google</a> -->
+
+    <!-- <h3>CSS Boxmodel</h3>
+    <div class="box box1">I'm Palak</div>
+    <div class="box box2">Lorem, ipsum dolor.</div> -->
+
+    <h3>Fonts</h3>
+    <p>This is a video on fonts...</p>
+    <p>
+        <ul>
+            <li>font family is caligraphy style of font</li>
+            <li>font weight is used to to make font lighter pr darker</li>
+            <li>line height is used for the gap in between of lines</li>
+            <li>letter spacing is used for the space in between letters </li>
+        </ul>
+    </p>
+    <h2>About Fonts</h2>
+    <p class="decor">this is a paragraph and here I'm using it
+        <ol>
+            <li>text transform is used for loercase or capatalise the text.</li>
+            <li>text decoration is used for decoration of text like underlinning </li>
+            <li>text decoration color is used to color the text decoration</li>
+            <li>text decoration style is used for styling the decoration</li>
+            <li>text decoration thickness id used to thicken the decoration</li>
+            <li>text indent is used to add indent in the text</li>
+        </ol>
+    </p>
+    
+    <h1>This is all about colors</h1>
+    <p>
+        Colors xan be represented in:
+        <ol>
+            <li>Color keywords</li>
+            <li>Hex Color Code</li>
+            <li>RGB</li>
+            <li>RGBA</li>
+            <li>HSL</li>
+        </ol>
+    </p>
+
+    <!-- EXERCISE - 2        DONEEEE!!!!
+    Write a html and css code to style a paragraph inside a div which contains 5 other paragraphs.
+     The first paragraph must have background color yellow and text color red.
+      The other paragraphsmust have background color blue and text color white. 
+      The html is written below for your reference.
+      
+     <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum labore porro repellendus cumque nemo minus, nisi praesentium recusandae dolorum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nostrum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nostrum?</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum labore porro repellendus cumque nemo minus, nisi praesentium recusandae dolorum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nostrum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nostrum?</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+    
+         SOLUTION - 2
+        type - 1
+        div:first-child > p:first-child{
+            background-color: yellow;
+            color: red;
+        }
+
+        div p {
+            background-color: blue;
+            color: white;
+        } 
+
+        type - 2
+        p{
+            background-color: blue;
+            color: white;
+        }
+
+        div p:first-child{
+            div p:nth-child(2){
+            background-color: yellow;
+            color: red;
+        }
+            -->
+        
+        <h1 data-x="a">Specificity and Cascade</h1>
+        <p class="para">inline style > ID Selector > Element Selector > Universal Selector</p>
+        <p>important over rights inline styles</p>
+        <div class="box">
+            hey gadheda...
+            <h2>Shadows And Outline</h2>
+        </div>
+        <h3>Styling Lists</h3>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>screen</li>
+            </ul>
+        </nav>
+        
+        <h2>CSS overflow</h2>
+        <div class="over">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum rerum provident iste, magnam voluptate, laudantium suscipit dolore, consequatur odit aliquid vitae asperiores culpa adipisci mollitia tempore atque. Commodi recusandae obcaecati deleniti error fugit accusamus atque a enim esse inventore culpa, pariatur laboriosam aliquam quidem cum?
+        </div>  
+
+        
+</body>
+</html>

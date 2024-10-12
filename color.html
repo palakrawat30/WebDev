@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity and Cascade</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .po{
+            height: 80px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid maroon;
+
+        }
+
+        .box1{
+            background-color: aqua;
+            position: relative;
+            z-index: 1;
+        }
+
+        .box2{
+            background-color: aquamarine;
+            position: relative;
+            left: 50px;
+            top: -40px;
+        }
+
+        .box3{
+            background-color: bisque;
+            position: fixed;
+            bottom: 0px;
+            left: 20vw;
+        }
+
+        .box4{
+            background-color: mediumpurple;
+        }
+
+        .parent{
+            margin: 34px;
+            padding: 43px;
+            border: 3px solid green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h2>CSS Position</h2>
+        <div class="po box1"></div>
+        <div class="po box2"></div>
+        <div class="po box3"></div>
+        <div class="po box4"></div>
+    </div>
+</body>
+    </html>
